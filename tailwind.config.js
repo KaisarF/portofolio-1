@@ -28,6 +28,13 @@ module.exports = {
           '100%': { 'background-position': '-100%' },
         },
       },
+      colors:{
+        'primary1': '#222831',
+        'primary2': "#31363F",
+        'primary3': "#76ABAE",
+        'primary4': "#EEEEEE"
+
+      },
     },
   },
   plugins: [],
