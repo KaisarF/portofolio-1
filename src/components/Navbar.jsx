@@ -8,7 +8,7 @@ const Navbar = () => {
           <div className="flex justify-between h-16">
             <div className="flex">
               <div className="flex-shrink-0 flex items-center">
-                <span className="text-2xl font-bold text-gray-800">KaisarF</span>
+                <a className="text-2xl font-bold text-gray-800" href='https://github.com/KaisarF'>KaisarF</a>
               </div>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:items-center">

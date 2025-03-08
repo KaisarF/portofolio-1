@@ -30,7 +30,7 @@ const Hero = () => {
               />
             </div>
             <h1 className=" p-4 bottom-0 bg-primary2 -translate-y-9 -translate-x-24 text-xl absolute font-normal flex items-center justify-center z-20 rounded-tr-xl">
-              Front-end <br/> Developer
+              junior Full-stack <br/> Developer
             </h1>
         </div>
         <div className='mx-auto py-4 lg:py-12 lg:px-20 flex-grow w-7/12 'data-aos="fade-right">

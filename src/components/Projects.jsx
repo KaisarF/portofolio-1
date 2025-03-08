@@ -8,6 +8,7 @@ import kopiKaisar from '../img/kopiKaisar.png'
 import warunkPadank from '../img/warunkPadank.png'
 import catalogue from '../img/catalogueRestaurant.png'
 import weatherApp from '../img/weatherApp.png'
+import accounting from '../img/accounting.png'
 
 import 'aos/dist/aos.css';
 import AOS from 'aos';
@@ -23,6 +24,15 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      name: "Accounting web",
+      description: "Create backoffice for accounting web",
+      image: accounting,
+      tools:"laravel, git",
+      link: "https://github.com/KaisarF/accounting.git",
+      web:"https://github.com/KaisarF/accounting.git"
+    },
+    {
+      id: 2,
       name: "luxury checker web profile",
       description: "web profile luxury checker",
       image: luxury,
@@ -31,7 +41,7 @@ const Projects = () => {
       web:"https://github.com/KaisarF/luxury-app.git"
     },
     {
-      id: 2,
+      id: 3,
       name: "hausjo web profile",
       description: "Hausjo web profile",
       image: hausjo,
@@ -40,7 +50,7 @@ const Projects = () => {
       web:"https://github.com/KaisarF/HausJo.git"
     },
     {
-      id: 3,
+      id: 4,
       name: "weather app",
       description: "simple weather app for check weather in certain area",
       image: weatherApp,
@@ -50,7 +60,7 @@ const Projects = () => {
     },
   
     {
-      id: 4,
+      id: 5,
       name: "GII web profile",
       description: "Green Innovation Indonesia web profile",
       image: gii,
@@ -59,7 +69,7 @@ const Projects = () => {
       web:"https://gi2-eco-route.netlify.app/"
     },
     {
-      id: 5,
+      id: 6,
       name: "Eco Route web profile",
       description: "Eco Route web profile",
       image: ecoRoute,
@@ -68,7 +78,7 @@ const Projects = () => {
       web:"https://eco-route.netlify.app"
     },
     {
-      id: 6,
+      id:7,
       name: "restaurant catalogue",
       description: "web for dicoding submission",
       image: catalogue,
@@ -77,7 +87,7 @@ const Projects = () => {
       web:"https://kaisar-restaurant-catalogue.netlify.app/"
     },
     {
-      id: 7,
+      id: 8,
       name: "warunk padank",
       description: "web for dicoding submission",
       image: warunkPadank,
@@ -86,7 +96,7 @@ const Projects = () => {
       web:"https://warunk-padank.netlify.app"
     },
     {
-      id: 8,
+      id: 9,
       name: "kopi kaisar",
       description: "web about local coffee store",
       image: kopiKaisar,
