@@ -37,8 +37,8 @@ const Projects = () => {
       description: "web profile luxury checker",
       image: luxury,
       tools:"laravel, SCSS",
-      link: "https://github.com/KaisarF/luxury-app.git",
-      web:"https://github.com/KaisarF/luxury-app.git"
+      link: "https://luxury-checker.co.id/",
+      web:"https://luxury-checker.co.id/"
     },
     {
       id: 3,
@@ -46,8 +46,8 @@ const Projects = () => {
       description: "Hausjo web profile",
       image: hausjo,
       tools:"laravel, SCSS",
-      link: "https://github.com/KaisarF/HausJo.git",
-      web:"https://github.com/KaisarF/HausJo.git"
+      link: "https://www.hausjo.com/",
+      web:"https://www.hausjo.com/"
     },
     {
       id: 4,
@@ -101,8 +101,8 @@ const Projects = () => {
       description: "web about local coffee store",
       image: kopiKaisar,
       tools:"HTML, CSS, Javascript",
-      link: "https://github.com/KaisarF/eco-route-web.git",
-      web:"https://eco-route.netlify.app"
+      link: "https://github.com/KaisarF/web-kopi",
+      web:"https://kedai-kaisar.netlify.app/"
     },
   ];
 
