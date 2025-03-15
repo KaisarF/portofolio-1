@@ -5,7 +5,7 @@ const Experience = () => {
   const experience = [
     {
       id: 1,
-      role: "Front-end Intern",
+      role: "Front-end, Back-end Intern",
       company: "Ordo Apps",
       duration: "Nov 2024 - Apr 2025",
       descr1: "Slicing Web using Laravel and SCSS",

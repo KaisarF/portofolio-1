@@ -122,7 +122,7 @@ const Projects = () => {
               />
               <div className="p-6">
               <a href={project.link}>
-                <h3 className="font-bold text-xl mb-2">{project.name}</h3>
+                <h3 className="font-bold text-xl mb-2 hover:text-gray-500">{project.name}</h3>
               </a>
                 <p className="text-gray-700 mb-4">{project.description}</p>
                 <p className='text-gray-800 mb-3' >Tools: <span className='text-black font-bold' >{project.tools}</span></p>
