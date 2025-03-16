@@ -9,7 +9,7 @@ const Experience = () => {
       company: "Ordo Apps",
       duration: "Nov 2024 - Apr 2025",
       descr1: "Slicing Web using Laravel and SCSS",
-      descr2: "Create a web responsive",
+      descr2: "Create a backend development and API for backoffice",
       descr3: "Create reusable component using blade component template",
       skill: "Laravel, SCSS",
     },

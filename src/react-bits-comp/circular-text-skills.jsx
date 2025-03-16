@@ -20,7 +20,7 @@ const getTransition = (duration, from) => ({
   },
 });
 
-const CircularText = ({
+const CircularTextSkills = ({
   text,
   spinDuration = 20,
   onHover = "speedUp",
@@ -89,7 +89,7 @@ const CircularText = ({
   return (
     <motion.div
       initial={{ rotate: 0 }}
-      className={`mx-auto rounded-full w-40 h-40  text-white font-black text-center cursor-pointer origin-center ${className}`}
+      className={`mx-auto rounded-full w-60 h-60 text-white font-black text-center cursor-pointer origin-center ${className}`}
       animate={controls}
       onUpdate={(latest) => setCurrentRotation(Number(latest.rotate))}
       onMouseEnter={handleHoverStart}
@@ -116,4 +116,4 @@ const CircularText = ({
   );
 };
 
-export default CircularText;
+export default CircularTextSkills;

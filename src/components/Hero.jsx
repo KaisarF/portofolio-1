@@ -4,7 +4,8 @@ import Kai from '../img/kaisar.png'
 import BlurText from "../react-bits-comp/BlurText"
 import StarBorder from '../react-bits-comp/StarBorder';
 import ShinyText from '../react-bits-comp/ShinyText';
-
+import CircularText from '../react-bits-comp/circular-text';
+import RotatingText from '../react-bits-comp/RotstingText';
 const handleAnimationComplete = () => {
 console.log('Animation completed!');
 };
@@ -29,21 +30,32 @@ const Hero = () => {
               className="z-10 w-auto h-full"
               />
             </div>
-            <h1 className=" p-4 bottom-0 bg-primary2 -translate-y-9 -translate-x-24 text-xl absolute font-normal flex items-center justify-center z-20 rounded-tr-xl">
-              Junior Full-stack <br/> Developer
+            <h1 className="  p-4 bottom-0 bg-primary2 -translate-y-5 -translate-x-24 text-xl absolute font-normal flex items-center justify-center z-20 rounded-tr-xl">
+            <RotatingText
+  texts={['Front-end', 'Back-end', 'Fullstack']}
+  mainClassName="px-2 sm:px-2 md:px-3 bg-white text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
+  staggerFrom={"last"}
+  initial={{ y: "100%" }}
+  animate={{ y: 0 }}
+  exit={{ y: "-120%" }}
+  staggerDuration={0.025}
+  splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+  transition={{ type: "spring", damping: 30, stiffness: 400 }}
+  rotationInterval={2000}
+/> Developer
             </h1>
         </div>
         <div className='mx-auto py-4 lg:py-12 lg:px-20 flex-grow w-7/12 'data-aos="fade-right">
-          <h1 className='text-3xl font-bold text-center lg:text-justify my-8 '>
+          {/* <h1 className='text-3xl font-bold text-center lg:text-justify my-8 '>
           Web Developer, Bringing Your Ideas to Life with Stunning Websites
-          </h1>
-          {/* <BlurText
+          </h1> */}
+          <BlurText
             text="Web Developer, Bringing Your Ideas to Life with Stunning Websites"
             delay={150}
             animateBy="words"
             direction='top'
             className="text-3xl font-bold text-justify my-8"
-          /> */}
+          />
           <p className='text-gray-400 text-justify text-l '>Hello, It's me Kaisar Fauzan, I am an Informatics graduate from Universitas Pembangunan Nasional “Veteran” East Java,focusing on front-end web development. I am passionate about creating easy-to-use and efficient web solutions. I am constantly exploring new and unique ideas, always looking for ways to challenge myself and expand my skill set.
           </p>
           <div className='mt-5 flex flex-col lg:flex-row items-center justify-center '>

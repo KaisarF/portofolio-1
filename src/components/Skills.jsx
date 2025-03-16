@@ -1,5 +1,5 @@
 import React from 'react';
-import CircularText from '../react-bits-comp/circular-text';
+import CircularTextSkills from '../react-bits-comp/circular-text-skills';
 
 import js_img from '../img/js_img.png'
 import react_img from '../img/react_img.png'
@@ -50,12 +50,12 @@ const Skills = () => {
   ]
 
   return (
-    <section id="skills" className="p-16">
+    <section id="skills" className="px-8 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white bg-primary2 py-10">
           <h2 className="text-3xl font-bold text-center mb-8">My Skills</h2>
           <div className='grid grid-cols-1 md:grid-cols-2'>
             <div className='flex justify-center items-center py-10 md:py-0' >
-              <CircularText
+              <CircularTextSkills
                 text="my skills ~ my skills ~ "
                 onHover="slowDown"
                 spinDuration={10}
